@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scroll_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:padding="5dp"
+            android:text="上下垂直滚动的tv" />
+
+        <TextView
+            android:id="@+id/test_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:padding="5dp"
+            android:text="测试textSwitch" />
+
+        <TextView
+            android:id="@+id/test_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:padding="5dp"
+            android:text="测试line折线图" />
+
+        <TextView
+            android:id="@+id/test_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:padding="5dp"
+            android:text="测试蜘蛛网折线图" />
+
+        <TextView
+            android:id="@+id/test_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@android:color/darker_gray"
+            android:padding="5dp"
+            android:text="饼状图" />
+
+    </LinearLayout>
+</ScrollView>
